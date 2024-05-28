@@ -7,15 +7,6 @@ body,html {
 	height: 100%;
 }
 
-body {
-	background-image: url("../img/e-book.png");
-	background-position: top;
-	background-repeat: no-repeat;
-	background-size: cover;
-	position: relative;
-	min-height: 100vh;
-}
-
 .navbar {
 	background-color: #0054B5;
 	border-bottom: 3px solid #EEBF2D;
