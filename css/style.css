@@ -85,3 +85,14 @@ body nav a img{
 	margin-top: 15px;
 	color: #FFF;
 }
+
+
+#poster1{
+	background-image: url("../img/POSTER-1.resized.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	min-height: 500px;
+	max-width: 354px;
+}
