@@ -1,0 +1,96 @@
+@font-face{
+	font-family: EFCO Brookshire;
+	src: url("../fonts/EFCO Brookshire Regular.ttf");
+}
+
+body,html {
+	height: 100%;
+}
+
+body {
+	background-image: url("../img/e-book.png");
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	min-height: 100vh;
+}
+
+.navbar {
+	background-color: #0054B5;
+	border-bottom: 3px solid #EEBF2D;
+}
+
+body nav a:hover{
+	color: #FFF;
+}
+
+.live-link{
+	color: #EEBF2D;
+	margin: 0px 45px -10px 15px;
+	font-size: 23px;
+	font-family: "Poppins", sans-serif;
+}
+
+body nav a, .nav-link{
+	color: #FFF;
+	font-family: "Poppins", sans-serif;
+}
+
+body nav a img{
+	padding: 0px 0px 0px 0px;
+}
+
+.navbar-brand{
+	font-size: 37px;
+}
+
+.nav-link{
+	margin: 0px 15px 0px 15px;
+	font-size: 22px;
+}
+
+.sitename{
+	font-size: 50px;
+}
+
+.nav-link:hover{
+	color: #EEBF2D;
+}
+
+#home-display-text1{
+	font-size: 70px;
+	margin-top: 60px;
+	font-family: "EFCO Brookshire",sans-serif;
+	color: #EEBF2D;
+	text-shadow: 1px 1px 2px #0054B5;
+}
+
+#home-display-text2{
+	margin-bottom: 40px;
+	font-size: 70px;
+	font-family: "EFCO Brookshire",sans-serif;
+	color: #EEBF2D;
+	text-shadow: 1px 1px 2px #0054B5;
+}
+
+#start-reading-button{
+	padding: 10px 30px 10px 30px;
+	font-family: "Poppins",sans-serif;
+	font-weight: 900;
+}
+
+#footer{
+	background-color: #0054B5;
+	border-top: 3px solid #EEBF2D;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 4rem;
+	text-align: center;
+}
+
+#footer-text{
+	margin-top: 15px;
+	color: #FFF;
+}
