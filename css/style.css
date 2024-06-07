@@ -49,20 +49,20 @@ body nav a img{
 	color: #EEBF2D;
 }
 
-#home-display-text1{
-	font-size: 70px;
-	margin-top: 60px;
+.bannerText {
 	font-family: "EFCO Brookshire",sans-serif;
 	color: #EEBF2D;
 	text-shadow: 1px 1px 2px #0054B5;
 }
 
+#home-display-text1{
+	font-size: 70px;
+	margin-top: 60px;
+}
+
 #home-display-text2{
 	margin-bottom: 40px;
 	font-size: 70px;
-	font-family: "EFCO Brookshire",sans-serif;
-	color: #EEBF2D;
-	text-shadow: 1px 1px 2px #0054B5;
 }
 
 #start-reading-button{
@@ -122,4 +122,59 @@ body nav a img{
 
 #poster3:hover {
 	background-image: url("../img/HOVER-3.png");
+}
+
+#bookTitle {
+	text-align: center;
+	margin-top: 5rem;
+	margin-bottom: 2.5rem;
+	font-size: 55px;
+	color: #EEBF2D;
+	text-shadow: -1px 1px #000,
+		1px 1px #000,
+		1px -1px #000,
+		-1px -1px #000;
+}
+
+#direction{
+	text-align: justify;
+	text-justify: auto;
+	margin-left: 2.5rem;
+	margin-right: 2.5rem;
+	margin-bottom: 3.5rem;
+	font-size: 17px;
+}
+
+#examineeDetails{
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 2rem;
+}
+
+#fname{
+	margin-right: 10rem;
+	width: 25rem;
+}
+
+#gradeAndSection{
+	width: 25rem;
+}
+
+#startQuizButton:hover{
+	transform: scale(1.1,1.1);
+	-webkit-transform: scale(1.1,1.1);
+	-moz-transform: scale(1.1,1.1);
+}
+
+#page2BookTitle{
+	text-align: center;
+	margin-top: 5rem;
+	margin-bottom: 2.5rem;
+	font-size: 35px;
+	color: #EEBF2D;
+	text-shadow: -1px 1px #000,
+		1px 1px #000,
+		1px -1px #000,
+		-1px -1px #000;
+}
 }

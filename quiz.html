@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>DigiTales | E-books</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css"/>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins">
+	<style type="text/css">
+		body {
+			background-color: #D9EAFF;
+		}
+	</style>
+</head>
+<body onload="setUpPages()">
+	<nav class="navbar navbar-expand-sm">
+		<a href="index.html" class="navbar-brand">
+			<img src="img/logo.resized.png" alt="logo"/>
+			DigiTales
+		</a>
+	</nav>
+
+	<section class="container">
+		<div id="page1">
+			<h2 id="bookTitle">How the Leopard Got His Spots</h2>
+			<p id="direction">
+				<b>DIRECTION: </b> Ensure you have read the story "How the Leopard Got His Spots"
+				thoroughly before attempting the quiz. This quiz is designed to test your understanding
+				and recollection of the story's key events, characters, and themes. Take your time to
+				think about each question and answer them to the best of your ability. If time allows, go
+				back and review your answers to ensure they are complete and accurate.
+			</p>
+			<form>
+				<table id="examineeDetails">
+					<tr>
+						<td><label for="fname" style="font-size: 14px">Name</label></td>
+						<td><label for="gradeAndSection" style="font-size: 14px">Grade and Section</label></td>
+					</tr>
+					<tr>
+						<td><input type="text" id="fname" name="fname" class="border border-dark border-2 rounded rounded-4" placeholder="e.g. John Smith"></td>
+						<td><input type="text" id="gradeAndSection" name="gradeAndSection" class="border border-dark border-2 rounded rounded-4" placeholder="e.g. 1 Sampaguita"></td>
+					</tr>
+				</table>
+			</form>
+
+			<div class="text-center">
+				<button id="startQuizButton" class="btn btn-primary rounded rounded-4 fw-bolder" style="font-size: 25px;" onclick="nextPage()">START</button>
+			</div>
+		</div>
+		<div id="page2">
+			<h2 id="page2BookTitle">How the Leopard Got His Spots</h2>
+		</div>
+	</section>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/custom.js"></script>
+
+</body>
+</html>
