@@ -48,7 +48,7 @@
 				<button id="startQuizButton" class="btn btn-primary rounded rounded-4 fw-bolder" style="font-size: 25px;" onclick="goToQuestionPage()">START</button>
 			</div>
 		</div>
-		<div id="page2" class="text-center">
+		<div id="page2">
 			<h2 id="page2BookTitle">How the Leopard Got His Spots</h2>
 			<p><b>1. </b>What was the Leopard's original color in the story? </p>
 			<form class="lh-lg">
@@ -173,7 +173,7 @@
 			<p><b>9. </b>Who did Leopard ask to help him find the animals who live in the High Veldt? </p>
 			<form class="lh-lg">
 				<input type="radio" name="question9" id="q9c1" value="The Lion">
-				<label for="q9c1">The Lion"</label><br>
+				<label for="q9c1">The Lion</label><br>
 
 				<input type="radio" name="question9" id="q9c2" value="The Ethiopian">
 				<label for="q9c2">The Ethiopian</label><br>
@@ -199,13 +199,15 @@
 				<input type="radio" name="question10" id="q10c4" value="He was angry">
 				<label for="q10c4">He was angry</label>
 			</form>
-
-			<button class="btn btn-warning text-light fw-bolder rounded-4" id="submitQuiz" style="margin-bottom: 3.5rem;">Submit</button>
-
+			<div id="submitQuizParentDiv">
+			<button class="btn btn-warning text-light fw-bolder rounded-4" id="submitQuiz" style="margin-bottom: 3.5rem;" onclick="goToScore()">Submit</button>
+			</div>
 		</div>
-		<div id="page3">
-			
+		<div id="page3" class="text-center">
+			<h1 id="score" class="fw-bolder text-decoration-underline"></h1>
+			<h2 id="greeting" class="fw-bolder">CONGRATULATIONS!</h2>
 		</div>
+			<p id="interpretation"></p>
 	</section>
 
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
