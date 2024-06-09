@@ -1,4 +1,5 @@
 function setUpPages(){
+	document.getElementById("nameGradeSectionAlert").style.display = "none";
 	document.getElementById("page2").style.display = "none";
 	document.getElementById("page3").style.display = "none";
 }
@@ -9,9 +10,13 @@ function goToQuestionPage(){
 	gradeAndSection = document.getElementById("gradeAndSection").value;
 
 	//console.log(name+"  "+gradeAndSection);
-
-	document.getElementById("page1").style.display = "none";
-	document.getElementById("page2").style.display = "block";
+	if(name==="" || gradeAndSection===""){
+		document.getElementById("nameGradeSectionAlert").style.display = "block";
+		document.getElementById("nameGradeSectionAlert").classList.add("show");
+	}else{
+		document.getElementById("page1").style.display = "none";
+		document.getElementById("page2").style.display = "block";
+	}
 }
 
 let score = 0, questionCounter=0;
