@@ -1,5 +1,4 @@
 function setUpPages(){
-	//for(let i=2; i<8; i++)let
 	document.getElementById("page2").style.display = "none";
 	document.getElementById("page3").style.display = "none";
 }
@@ -34,6 +33,7 @@ function goToScore(){
 				score+=1;
 	}
 	document.getElementById("score").innerHTML = score+"/10";
+	document.getElementById("nameGradeSection").innerHTML=name+" of "+gradeAndSection;
 	let interpretation = document.getElementById("interpretation");
 	if(score>8) interpretation.innerHTML = advanced;
 	else if(score>5) interpretation.innerHTML = proficient;
